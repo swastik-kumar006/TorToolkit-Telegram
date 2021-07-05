@@ -39,7 +39,7 @@ except:
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        DB_URI = "dbname=tortk user=postgres password=avishkumar@1 host=db port=5432"
+        DB_URI = "postgres://dpiynouu:Nq6lq9GVLcjTrM0H2zTSXP44Y2ZEjlP2@batyr.db.elephantsql.com/dpiynouu"
         
         # MEGA CONFIG
         MEGA_ENABLE = False
