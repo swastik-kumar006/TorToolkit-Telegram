@@ -3,7 +3,7 @@ try:
 except:
     class ExecVars:
         # Set true if its VPS
-        IS_VPS = False
+        IS_VPS = True
         
         API_HASH = "e51aa7c56708e0408d1709349d34e284"
         API_ID = 1074100
@@ -39,7 +39,7 @@ except:
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        DB_URI = "postgres://dpiynouu:Nq6lq9GVLcjTrM0H2zTSXP44Y2ZEjlP2@batyr.db.elephantsql.com/dpiynouu"
+        DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
         MEGA_ENABLE = False
