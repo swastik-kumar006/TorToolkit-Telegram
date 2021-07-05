@@ -18,7 +18,7 @@ except:
         OWNER_ID = 1720705802
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = True
+        GD_INDEX_URL = https://mydrive.avishkumar055.workers.dev/0:/
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -62,7 +62,7 @@ except:
         DEFAULT_TIMEOUT = "leech"
 
         # For vps set path here or you can use runtime too
-        RCLONE_CONFIG = False
+        RCLONE_CONFIG = True
         
         # Name of the RCLONE drive from the config
         DEF_RCLONE_DRIVE = "Leon Mirror"
